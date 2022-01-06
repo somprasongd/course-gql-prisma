@@ -1,0 +1,7 @@
+type Task {
+  id: ID! @id
+  text: String!
+  completed: Boolean! @default(value: false)
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}

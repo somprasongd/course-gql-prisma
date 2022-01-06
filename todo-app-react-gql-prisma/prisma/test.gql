@@ -1,0 +1,21 @@
+query {
+  tasks {
+    text
+  }
+}
+
+{
+  "data": {
+    "tasks": [
+      {
+        "text": "Learn React"
+      },
+      {
+        "text": "Learn GraphQL"
+      },
+      {
+        "text": "Learn Prisma"
+      }
+    ]
+  }
+}
